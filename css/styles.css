@@ -46,7 +46,7 @@ h3 {
   padding: 0vw;
   font-family: 'Agrandir', serif;
   font-size: 2.014vw;
-  color: #FFC32D;
+  color: white;
 }
 
 h5 {
@@ -74,7 +74,7 @@ p {
   padding: 0vw;
   width: 100%;
   height: 5.498vw;
-  background-color: white;
+  background-color: #3D53C6;
   box-shadow: 0.4vw 0.4vw 2vw darkgray;
 }
 
@@ -87,7 +87,8 @@ p {
 .logo {
   position: absolute;
   top: 1.4vw;
-  left: 42.222vw;
+  /*left: 42.222vw;*/
+  left: 4vw;
 }
 
 .menu-button {

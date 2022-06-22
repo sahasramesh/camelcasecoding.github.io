@@ -16,7 +16,7 @@
   src: url(fonts/Inter-Bold.ttf);
 }
 
-@media screen and (max-device-width: 480px){
+@media screen and (max-device-width: 390px){
   body {
     -webkit-text-size-adjust: none;
   }
@@ -26,6 +26,8 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+@media screen and (min-width: 390px) {
 
 h1 {
   font-family: 'Agrandir', serif;
@@ -118,6 +120,11 @@ p {
   color: white;
 }
 
+.image-main {
+  background: url("main.png");
+  width: 100%;
+}
+
 .text-in-main {
   position: absolute;
   width: 60%;
@@ -133,7 +140,20 @@ p {
   margin-bottom: 8vw;
 }
 
+p.quote-body {
+  font-size: 2.778vw;
+  line-height: 4.5vw;
+}
+
+p.quote-end {
+  font-size: 2.778vw;
+  line-height: 4.5vw;
+  text-align: right;
+}
+
 .summary {
+  background-image: url('summary.png');
+  background-size: 100%;
   position: relative;
 }
 
@@ -229,15 +249,15 @@ p {
 
 h1 {
   font-family: 'Agrandir', serif;
-  font-size: 4.514vw;
+  font-size: 10.8vw;
   color: white;
 }
 
 h2 {
   font-family: 'Agrandir', serif;
-  font-size: 2.986vw;
+  font-size: 10.8vw;
+  line-height: 14.143vw;
   color: black;
-  line-height: 4.375vw;
 }
 
 h3 {
@@ -245,7 +265,7 @@ h3 {
   margin: 0vw;
   padding: 0vw;
   font-family: 'Agrandir', serif;
-  font-size: 2.014vw;
+  font-size: 5vw;
   color: white;
 }
 
@@ -256,17 +276,123 @@ h5 {
   margin: 2vw;
 }
 
-a {
-  color: #3BB9CA;
-  text-decoration: none;
-}
-
 p {
   font-family: 'Inter-Light';
   font-size: 2.014vw;
   color: black;
   line-height: 2.847vw;
 }
+
+.menu {
+  z-index: 99;
+  margin: 0vw;
+  padding: 0vw;
+  width: 100%;
+  height: 12vw;
+  background-color: #3D53C6;
+  box-shadow: 0.4vw 0.4vw 2vw darkgray;
+}
+
+.text-in-main {
+  position: absolute;
+  width: 80%;
+  top: 64vw;
+  left: 10vw;
+}
+
+.logo {
+  z-index: 999;
+  background-image: url('profilePhotoCircle.png');
+  top: 3vw;
+}
+
+.menu-button {
+  position: absolute;
+  top: 3vw;
+  right: 3vw;
+  transition-duration: 0.1s;
+}
+
+.button {
+  border: none;
+  font-family: Inter-Bold;
+  transition: 0.2s;
+}
+
+.black-button {
+  border-radius: 0.948vw;
+  height: 3.792vw;
+  width: 19vw;
+  background-color: black;
+  color: #FFC32D;
+  font-size: 2.013vw;
+}
+
+.special-button {
+  border-radius: 1.6vw;
+  height: 6vw;
+  width: 29.2vw;
+  background-color: #FFC32D;
+  color: white;
+  font-size: 3.4vw;
+}
+
+.blue-button {
+  border-radius: 0.948vw;
+  height: 3.792vw;
+  width: 19vw;
+  background-image: linear-gradient(to right, #3D53C6, #3BB9CA);
+  color: white;
+  font-size: 2.013vw;
+  margin: 4vw;
+  margin-bottom: 5vw;
+  margin-top: 0vw;
+}
+
+.button:hover {
+  opacity: 70%;
+}
+
+.image-main {
+  background: url("main-mobile.png");
+  width: 100%;
+}
+
+p.quote-body {
+  font-size: 6vw;
+  line-height: 8vw;
+}
+
+p.quote-end {
+  font-size: 6vw;
+  line-height: 8vw;
+  text-align: right;
+}
+
+.summary {
+  position: relative;
+}
+
+.summary-left {
+  position: absolute;
+  top: 2vw;
+  left: 10vw;
+  width: 100%;
+}
+
+.summary-right {
+  position: absolute;
+  top: 2vw;
+  right: 4vw;
+  padding-left: 48vw;
+  padding-right: 4vw;
+}
+
+img.summary {
+  object-fit: cover;
+  object-position: bottom;
+}
+
 }
 
 

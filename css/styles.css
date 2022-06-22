@@ -1,19 +1,19 @@
 @font-face {
   font-family: Agrandir;
   /*src: url(/Users/sahasramesh/Library/Fonts/Agrandir-GrandHeavy.otf);*/
-  src: url(/fonts/Agrandir-GrandHeavy.otf);
+  src: url(fonts/Agrandir-GrandHeavy.otf);
 }
 
 @font-face {
   font-family: Inter-Light;
   /*src: url(/Users/sahasramesh/Library/Fonts/Inter-Light.ttf);*/
-  src: url(/fonts/Inter-Light.ttf);
+  src: url(fonts/Inter-Light.ttf);
 }
 
 @font-face {
   font-family: Inter-Bold;
   /*src: url(/Users/sahasramesh/Library/Fonts/Inter-Bold.ttf);*/
-  src: url(/fonts/Inter-Bold.ttf);
+  src: url(fonts/Inter-Bold.ttf);
 }
 
 @media screen and (max-device-width: 480px){

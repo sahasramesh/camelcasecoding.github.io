@@ -16,18 +16,12 @@
   src: url(fonts/Inter-Bold.ttf);
 }
 
-@media screen and (max-device-width: 390px){
-  body {
-    -webkit-text-size-adjust: none;
-  }
-}
-
 body {
   margin: 0px;
   padding: 0px;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 391px) {
 
 h1 {
   font-family: 'Agrandir', serif;
@@ -118,10 +112,11 @@ p {
   position: relative;
   text-align: left;
   color: white;
+  overflow: hidden;
 }
 
 .image-main {
-  background: url("main.png");
+  content: url("main.png");
   width: 100%;
 }
 
@@ -151,9 +146,11 @@ p.quote-end {
   text-align: right;
 }
 
+img.summary {
+  content: url('summary.png');
+}
+
 .summary {
-  background-image: url('summary.png');
-  background-size: 100%;
   position: relative;
 }
 
@@ -353,8 +350,15 @@ p {
   opacity: 70%;
 }
 
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+  overflow: hidden;
+}
+
 .image-main {
-  background: url("main-mobile.png");
+  content: url("main-mobile.png");
   width: 100%;
 }
 
@@ -389,8 +393,7 @@ p.quote-end {
 }
 
 img.summary {
-  object-fit: cover;
-  object-position: bottom;
+  content: url('summary-mobile.png');
 }
 
 }

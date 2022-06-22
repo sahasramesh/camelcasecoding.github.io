@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-device-width: 480px){
-  body{
+  body {
     -webkit-text-size-adjust: none;
   }
 }
@@ -224,3 +224,68 @@ p {
   top: 2vw;
   left: 4vw;
 }
+
+@media screen and (max-width: 390px) {
+
+h1 {
+  font-family: 'Agrandir', serif;
+  font-size: 4.514vw;
+  color: white;
+}
+
+h2 {
+  font-family: 'Agrandir', serif;
+  font-size: 2.986vw;
+  color: black;
+  line-height: 4.375vw;
+}
+
+h3 {
+  text-align: center;
+  margin: 0vw;
+  padding: 0vw;
+  font-family: 'Agrandir', serif;
+  font-size: 2.014vw;
+  color: white;
+}
+
+h5 {
+  font-family: 'Inter-Light';
+  font-size: 2.778vw;
+  line-height: 4.5vw;
+  margin: 2vw;
+}
+
+a {
+  color: #3BB9CA;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Inter-Light';
+  font-size: 2.014vw;
+  color: black;
+  line-height: 2.847vw;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
